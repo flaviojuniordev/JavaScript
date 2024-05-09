@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>Calculadora</h1>
+
+        <div class="inputs">
+            Primeiro Número<br>
+            <input class="input" id="n1" type="number" required=""> <br>
+            Segundo Número<br>
+            <input class="input" id="n2" type="number" required=""> <br>
+        </div>
+
+        <button class="btnSum">Somar</button>
+        <button class="btnSub">Subtrair</button>
+        <button class="btnMult">Multiplicar</button>
+        <button class="btnDiv">Dividir</button>
+
+        <br>
+        O resultado é: <span id="result"></span>
+    </div>
+
+    <script type="text/javascript" src="calculadora.js"></script>
+</body>
+
+</html>
